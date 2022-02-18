@@ -1,0 +1,4 @@
+The project is a game where 2 players can pick their "heroes" and battle each other out
+To Run the game, compile main.cpp using the makefile by typing "make box"
+There are probably many issues with my code, as this is the first ever game I tried to create after learning C++ for a short period of time
+I hope you enjoy the game!
