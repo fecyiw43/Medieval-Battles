@@ -1,0 +1,18 @@
+Name of the character is: @#*$(&^**%@
+Max health is: 0
+Current health is: 0
+Current mana is: 0
+Current defense is: 0
+Current strength is: 0
+Current dodge chance is: 0%
+Current critical chance is: 0%
+Current regen rate is: 0%
+Name of the character is: Hello
+Max health is: 1234
+Current health is: 1234
+Current mana is: 78
+Current defense is: 999
+Current strength is: 999
+Current dodge chance is: 88%
+Current critical chance is: 78%
+Current regen rate is: 23%

@@ -1,0 +1,11 @@
+Please enter your name player 1
+Please enter your name player 2
+Frank, Please select a character!
+Hint: Human class have critical power, and creature class have regen power
+Hint: Human class have lower dodge chance than creature class!
+| Wizard(1) | Warrior(2) | Sphynx(3) | Dragon(4) |
+Shaun, Please select a character!
+Hint: Human class have critical power, and creature class have regen power
+Hint: Human class have lower dodge chance than creature class!
+| Wizard(1) | Warrior(2) | Sphynx(3) | Dragon(4) |
+Success

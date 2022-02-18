@@ -1,0 +1,82 @@
+g++ -Wall -o Driver_1 Driver_1.cpp Character.cpp Wizard.cpp Warrior.cpp Dragon.cpp Sphynx.cpp Functions.cpp item.cpp Consumables.cpp
+g++ -Wall -o Driver_2 Driver_2.cpp Character.cpp Wizard.cpp Warrior.cpp Dragon.cpp Sphynx.cpp Functions.cpp item.cpp Consumables.cpp
+
+echo
+echo Start Testing Objects
+echo
+
+
+
+echo
+echo testing all Characters - Wizard - Testing 1,2,3
+./Driver_1 < Test_obj-Wizard_01.txt > Temp_output.txt
+diff Output_obj-Wizard_01.txt Temp_output.txt
+./Driver_1 < Test_obj-Wizard_02.txt > Temp_output.txt
+diff Output_obj-Wizard_02.txt Temp_output.txt
+./Driver_1 < Test_obj-Wizard_03.txt > Temp_output.txt
+diff Output_obj-Wizard_03.txt Temp_output.txt
+echo Object Wizard testing finished
+echo
+
+echo
+echo testing all Characters - Warrior - Testing 1,2,3
+./Driver_1 < Test_obj-Warrior_01.txt > Temp_output.txt
+diff Output_obj-Warrior_01.txt Temp_output.txt
+./Driver_1 < Test_obj-Warrior_02.txt > Temp_output.txt
+diff Output_obj-Warrior_02.txt Temp_output.txt
+./Driver_1 < Test_obj-Warrior_03.txt > Temp_output.txt
+diff Output_obj-Warrior_03.txt Temp_output.txt
+echo Object Warrior testing finished
+echo
+
+echo
+echo testing all Characters - Dragon - Testing 1,2,3
+./Driver_1 < Test_obj-Dragon_01.txt > Temp_output.txt
+diff Output_obj-Dragon_01.txt Temp_output.txt
+./Driver_1 < Test_obj-Dragon_02.txt > Temp_output.txt
+diff Output_obj-Dragon_02.txt Temp_output.txt
+./Driver_1 < Test_obj-Dragon_03.txt > Temp_output.txt
+diff Output_obj-Dragon_03.txt Temp_output.txt
+echo Object Dragon testing finished
+echo
+
+echo
+echo testing all Characters - Sphynx - Testing 1,2,3
+./Driver_1 < Test_obj-Sphynx_01.txt > Temp_output.txt
+diff Output_obj-Sphynx_01.txt Temp_output.txt
+./Driver_1 < Test_obj-Sphynx_02.txt > Temp_output.txt
+diff Output_obj-Sphynx_02.txt Temp_output.txt
+./Driver_1 < Test_obj-Sphynx_03.txt > Temp_output.txt
+diff Output_obj-Sphynx_03.txt Temp_output.txt
+echo Object Sphynx testing finished
+echo
+
+
+
+
+echo
+echo testing potions - Health potion - Testing 1,2,3
+./Driver_2 < Test_obj-Health_01.txt > Temp_output.txt
+diff Output_obj-Health_01.txt Temp_output.txt
+./Driver_2 < Test_obj-Health_02.txt > Temp_output.txt
+diff Output_obj-Health_02.txt Temp_output.txt
+./Driver_2 < Test_obj-Health_03.txt > Temp_output.txt
+diff Output_obj-Health_03.txt Temp_output.txt
+echo Object Health potion testing finished
+echo
+
+echo
+echo testing potions - Damage potion - Testing 1,2,3
+./Driver_2 < Test_obj-Damage_01.txt > Temp_output.txt
+diff Output_obj-Damage_01.txt Temp_output.txt
+./Driver_2 < Test_obj-Damage_02.txt > Temp_output.txt
+diff Output_obj-Damage_02.txt Temp_output.txt
+./Driver_2 < Test_obj-Damage_03.txt > Temp_output.txt
+diff Output_obj-Damage_03.txt Temp_output.txt
+echo Object Health potion testing finished
+echo
+
+
+echo
+echo End of testing
+echo

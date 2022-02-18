@@ -1,0 +1,3 @@
+500
+player damaged by: 150 hp
+350

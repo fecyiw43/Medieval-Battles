@@ -1,0 +1,18 @@
+Name of the character is: 78654
+Max health is: -842
+Current health is: -423
+Current mana is: -14
+Current defense is: -88
+Current strength is: -73
+Current dodge chance is: -120%
+Current critical chance is: -190%
+Current regen rate is: -280%
+Name of the character is: Hello
+Max health is: 1234
+Current health is: 1234
+Current mana is: 78
+Current defense is: 999
+Current strength is: 999
+Current dodge chance is: 88%
+Current critical chance is: 78%
+Current regen rate is: 23%

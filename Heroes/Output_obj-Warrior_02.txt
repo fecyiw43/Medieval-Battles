@@ -1,0 +1,18 @@
+Name of the character is: u4r7u4
+Max health is: -724
+Current health is: -652
+Current mana is: -52
+Current defense is: -127
+Current strength is: -55
+Current dodge chance is: -21%
+Current critical chance is: -123%
+Current regen rate is: -264%
+Name of the character is: Hello
+Max health is: 1234
+Current health is: 1234
+Current mana is: 78
+Current defense is: 999
+Current strength is: 999
+Current dodge chance is: 88%
+Current critical chance is: 78%
+Current regen rate is: 23%

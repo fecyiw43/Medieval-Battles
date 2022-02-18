@@ -1,0 +1,18 @@
+Name of the character is: Frank
+Max health is: 824
+Current health is: 470
+Current mana is: 0
+Current defense is: 67
+Current strength is: 132
+Current dodge chance is: 80%
+Current critical chance is: 20%
+Current regen rate is: 30%
+Name of the character is: Hello
+Max health is: 1234
+Current health is: 1234
+Current mana is: 78
+Current defense is: 999
+Current strength is: 999
+Current dodge chance is: 88%
+Current critical chance is: 78%
+Current regen rate is: 23%

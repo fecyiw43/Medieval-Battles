@@ -1,0 +1,7 @@
+Welcome to heroes rpg!
+Please select one of the following options!
+(1) Start game
+(2) Help
+(3) Credit
+(4) End game
+Success

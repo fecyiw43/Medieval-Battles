@@ -1,0 +1,11 @@
+Welcome to heroes rpg!
+Please select one of the following options!
+(1) Start game
+(2) Help
+(3) Credit
+(4) End game
+Please enter a valid whole number (1-4)
+Please enter a valid whole number (1-4)
+Please enter a valid whole number (1-4)
+Please enter a valid whole number (1-4)
+Success

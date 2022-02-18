@@ -1,0 +1,16 @@
+g++ -Wall -o Main Action_box.cpp Character.cpp Wizard.cpp Warrior.cpp Dragon.cpp Sphynx.cpp Functions.cpp item.cpp Consumables.cpp
+
+echo
+echo Start Testing Main
+echo
+
+echo
+echo testing main function
+./Main < Test_main.txt > Temp_output.txt
+diff Output_main.txt Temp_output.txt
+echo main game testing finished
+echo
+
+echo
+echo finish testing
+echo

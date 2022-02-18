@@ -1,0 +1,18 @@
+Name of the character is: ~~23Frank23
+Max health is: -420
+Current health is: -69
+Current mana is: -12314
+Current defense is: -500
+Current strength is: -10
+Current dodge chance is: -400%
+Current critical chance is: -200%
+Current regen rate is: -300%
+Name of the character is: Hello
+Max health is: 1234
+Current health is: 1234
+Current mana is: 78
+Current defense is: 999
+Current strength is: 999
+Current dodge chance is: 88%
+Current critical chance is: 78%
+Current regen rate is: 23%

@@ -1,0 +1,44 @@
+g++ -Wall -o Driver_3 Driver_3.cpp
+g++ -Wall -o Driver_4 Driver_4.cpp
+
+echo
+echo Start Testing Boundary
+echo
+
+
+echo
+echo testing character input boundary - Testing 1,2,3,4
+./Driver_4 < Test_character-bounce_01.txt > Temp_output.txt
+diff Output_character-bounce_01.txt Temp_output.txt
+./Driver_4 < Test_character-bounce_02.txt > Temp_output.txt
+diff Output_character-bounce_02.txt Temp_output.txt
+./Driver_4 < Test_character-bounce_03.txt > Temp_output.txt
+diff Output_character-bounce_03.txt Temp_output.txt
+./Driver_4 < Test_character-bounce_04.txt > Temp_output.txt
+diff Output_character-bounce_04.txt Temp_output.txt
+./Driver_4 < Test_character-bounce_05.txt > Temp_output.txt
+diff Output_character-bounce_05.txt Temp_output.txt
+echo character input boundary testing finished
+echo
+
+
+
+echo
+echo testing option input boundary - Testing 1,2,3,4,5
+./Driver_3 < Test_option-bounce_01.txt > Temp_output.txt
+diff Output_option-bounce_01.txt Temp_output.txt
+./Driver_3 < Test_option-bounce_02.txt > Temp_output.txt
+diff Output_option-bounce_02.txt Temp_output.txt
+./Driver_3 < Test_option-bounce_03.txt > Temp_output.txt
+diff Output_option-bounce_03.txt Temp_output.txt
+./Driver_3 < Test_option-bounce_04.txt > Temp_output.txt
+diff Output_option-bounce_04.txt Temp_output.txt
+./Driver_3 < Test_option-bounce_05.txt > Temp_output.txt
+diff Output_option-bounce_05.txt Temp_output.txt
+echo option input boundary testing finished
+echo
+
+
+echo
+echo End of testing
+echo
